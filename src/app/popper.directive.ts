@@ -35,6 +35,7 @@ export class PopperDirective implements OnInit, OnDestroy {
   private readonly destroy$ = new Subject<void>();
 
   constructor(
+
     private readonly el: ElementRef,
     private readonly renderer: Renderer2
   ) {}
